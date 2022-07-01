@@ -30,9 +30,9 @@ def example_task_handler():
 
 
 @app.route('/')
-def hello():
+def app_1():
     """Basic index to verify app is serving."""
-    return 'Hello World!'
+    return 'Its me Junaid and this is my cloud computing course work'
 
 
 if __name__ == '__main__':
